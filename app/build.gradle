@@ -1,0 +1,16 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'ru.poscenter.assistant'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'ru.poscenter.assistant'
+        minSdk 29
+        targetSdk 35
+        versionCode 12
+        versionName '0.1.11'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
